@@ -1,0 +1,62 @@
+#why-suha {
+    padding: 80px 20px;
+    background: #ffffff;
+    text-align: center;
+  }
+  
+  #why-suha .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  #why-suha .section-label {
+    display: inline-block;
+    background: #f5e9d8;
+    color: #e26d06;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  #why-suha h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #252525;
+    margin-bottom: 50px;
+  }
+  
+  #why-suha h2 .highlight {
+    color: #e26d06;
+  }
+  
+  #why-suha .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+  }
+  
+  #why-suha .feature-box {
+    padding: 20px;
+  }
+  
+  #why-suha .feature-box img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  
+  #why-suha .feature-box h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 10px;
+  }
+  
+  #why-suha .feature-box p {
+    font-size: 15px;
+    color: #475569;
+    line-height: 1.6;
+  }
+  
