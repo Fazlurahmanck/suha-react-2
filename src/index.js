@@ -8,7 +8,7 @@ import "./css/footer.css";
 import "./css/exe.css";
 import "./css/group.css";
 import "./css/we_are.css";
-import Mycomponent  from './App';  // import cheyyunnu
+import MyComponent  from './App';  // import cheyyunnu
 import reportWebVitals from './reportWebVitals';
 
 
@@ -16,7 +16,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   //passcheyyunnu
   <React.StrictMode>
-    <Mycomponent /> 
+    <MyComponent /> 
   </React.StrictMode>
 );
 
