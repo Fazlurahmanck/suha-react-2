@@ -60,7 +60,7 @@ function MyComponent() {
 
             <div className="right">
               <div className="image-wrap">
-                <img src="/images/men png.png" alt="Student" />
+                <img src="/images/men png.jpeg" alt="Student" />
               </div>
             </div>
           </div>
