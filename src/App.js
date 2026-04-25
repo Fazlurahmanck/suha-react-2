@@ -110,7 +110,7 @@ function MyComponent() {
           </div>
 
           <div className="course-card">
-            <img src="/images/digital image.jpg" alt="Digital Marketing" className="course-image" />
+            <img src="/images/digital image.jpg" alt="Digital Marketing with Graphic Design" className="course-image" />
             <div className="course-title">Digital Marketing</div>
             <div className="course-info">
               <p><i className="fa-regular fa-clock"></i> Duration: <strong>5 Months</strong></p>
