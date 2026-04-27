@@ -133,7 +133,7 @@ function MyComponent() {
                 <img src="/images/IMG_6686.JPG" alt="Training sessions at our institute" />
               </div>
               <div className="image-wrapper">
-                <img src="/images/WhatsApp Image 2025-05-05 at 13.00.15_327f202f.jpg" alt="Students learning at our institute" />
+                <img src="/images/grand.jpg" alt="Students learning at our institute" />
               </div>
             </div>
           </div>
