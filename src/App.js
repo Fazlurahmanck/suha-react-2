@@ -67,6 +67,155 @@ function MyComponent() {
         </div>
       </section>
 
+<section>
+    <div className="section-header">
+      <h2 className="section-title">OUR PLACEMENTS</h2>
+      <p className="section-subtitle">
+        Follow us on <a href="https://instagram.com" className="social-link">Instagram</a>
+      </p>
+    </div>
+
+    <div className="slider-container">
+      <div className="slider-track">
+
+        {/* First set of slides */}
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/adarsh.jpg" alt="Suha Group Project 1" />
+          </div>
+        </div>
+
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/adhil ck.jpg" alt="Suha Group Team Member" />
+          </div>
+        </div>
+
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/shadiya.jpg" alt="Suha Group Office" />
+          </div>
+        </div>
+
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/jisnu.jpg" alt="Suha Group Achievement" />
+          </div>
+        </div>
+
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/shifa.jpg" alt="Suha Group Event" />
+          </div>
+        </div>
+
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/jasim.jpg" alt="Suha Group Event" />
+          </div>
+        </div>
+
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/jayasree.jpg" alt="Suha Group Event" />
+          </div>
+        </div>
+
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/hiba mol.jpg" alt="Suha Group Event" />
+          </div>
+        </div>
+
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/arjun.jpg" alt="Suha Group Event" />
+          </div>
+        </div>
+
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/ashitha.jpg" alt="Suha Group Event" />
+          </div>
+        </div>
+
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/midun.jpg" alt="Suha Group Event" />
+          </div>
+        </div>
+
+        {/* Duplicate slides for infinite scroll */}
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/adarsh.jpg" alt="Suha Group Project 1" />
+          </div>
+        </div>
+
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/adhil ck.jpg" alt="Suha Group Team Member" />
+          </div>
+        </div>
+
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/shadiya.jpg" alt="Suha Group Office" />
+          </div>
+        </div>
+
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/jisnu.jpg" alt="Suha Group Achievement" />
+          </div>
+        </div>
+
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/shifa.jpg" alt="Suha Group Event" />
+          </div>
+        </div>
+
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/jasim.jpg" alt="Suha Group Event" />
+          </div>
+        </div>
+
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/jayasree.jpg" alt="Suha Group Event" />
+          </div>
+        </div>
+
+         <div className="slide">
+          <div className="slide-content">
+            <img src="images/hiba mol.jpg" alt="Suha Group Event" />
+          </div>
+        </div>
+
+         <div className="slide">
+          <div className="slide-content">
+            <img src="images/arjun.jpg" alt="Suha Group Event" />
+          </div>
+        </div>
+        
+         <div className="slide">
+          <div className="slide-content">
+            <img src="images/ashitha.jpg" alt="Suha Group Event" />
+          </div>
+        </div>
+
+         <div className="slide">
+          <div className="slide-content">
+            <img src="images/midun.jpg" alt="Suha Group Event" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
       {/* COURSES */}
       <section className="course-section" id="course">
         <h2 className="section-heading">Our Featured Courses</h2>
