@@ -296,7 +296,7 @@ function MyComponent() {
             </h2>
 
             <p className="description">
-              We are a top software training institute in Nilambur, committed to empowering individuals with the right
+              We are a top software training institute in Kochi and Nilambur, committed to empowering individuals with the right
               skills to thrive in the tech world. Our seasoned instructors, well-structured courses, and global connections
               make us the perfect place to start or advance your tech career.
             </p>
