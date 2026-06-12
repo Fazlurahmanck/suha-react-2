@@ -38,7 +38,7 @@ function MyComponent() {
 
               <p>
                 Join the future of AI, software development, data science and digital marketing training with real-time
-                projects, mentorship, and hands-on learning in Nilambur, kerala
+                projects, mentorship, and hands-on learning in Kochi and Nilambur, kerala
               </p>
 
               <div className="cta-group">
