@@ -90,7 +90,7 @@ function MyComponent() {
 
         <div className="slide">
           <div className="slide-content">
-            <img src="images/PLACEMENT NEW TEMPLATE ADHIL CK.jpg" alt="Suha Group Team Member" />
+            <img src="images/adilck.jpg" alt="Suha Group Team Member" />
           </div>
         </div>
 
