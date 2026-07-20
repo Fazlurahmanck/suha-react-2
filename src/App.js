@@ -1,4 +1,33 @@
 import React, { useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+
+import "swiper/css";
+
+const placements = [
+  "adharsh.jpg",
+  "adilck.jpg",
+  "shadiya.jpg",
+  "jishnu.jpg",
+  "shifa.jpg",
+  "jasim.jpg",
+  "jayasree.jpg",
+  "hiba mol.jpg",
+  "arjun.jpg",
+  "ashitha.jpg",
+  "midhun ok.jpg",
+  "PLACEMENT HENNA PARWEEN.jpg",
+  "shemil.jpg"
+];
+
+const group = [
+  "/grp_img/WhatsApp Image 2025-05-06 at 11.00.44_20c3ecaa.jpg",
+  "/grp_img/WhatsApp Image 2025-05-06 at 11.00.44_abf936c3.jpg",
+  "/grp_img/WhatsApp Image 2025-05-06 at 11.00.44_ae24b114.jpg",
+  "/grp_img/WhatsApp Image 2025-05-06 at 11.00.45_914a6e71.jpg",
+  "/grp_img/WhatsApp Image 2025-05-06 at 11.00.45_a0ae720b.jpg",
+  "/grp_img/WhatsApp Image 2025-05-06 at 11.00.46_93ba8941.jpg",
+];
 
 
 function MyComponent() {
@@ -70,166 +99,38 @@ function MyComponent() {
         </div>
       </section>
 
-<section>
-    <div className="section-header">
-      <h2 className="section-title">OUR PLACEMENTS</h2>
-      <p className="section-subtitle">
-        Follow us on <a href="https://instagram.com" className="social-link">Instagram</a>
-      </p>
-    </div>
-
-    <div className="slider-container">
-      <div className="slider-track">
-
-        {/* First set of slides */}
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/adarsh.jpg" alt="Suha Group Project 1" />
-          </div>
+      <section>
+        <div className="section-header">
+          <h2 className="section-title">OUR PLACEMENTS</h2>
+          <p className="section-subtitle">
+            Follow us on <a href="https://instagram.com" className="social-link">Instagram</a>
+          </p>
         </div>
 
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/adilck.jpg" alt="Suha Group Team Member" />
-          </div>
+        <div className="slider-container">
+          <Swiper
+            className="mySwiper"
+            modules={[Autoplay]}
+            slidesPerView="auto"
+            spaceBetween={20}
+            loop={true}
+            speed={4000}
+            grabCursor={true}
+            autoplay={{
+              delay: 0,
+              disableOnInteraction: false,
+            }}
+          >
+            {placements.map((img) => (
+              <SwiperSlide key={img}>
+                <div className="slide-content">
+                  <img src={`images/${img}`} alt="Placement" />
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
-
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/shadiya.jpg" alt="Suha Group Office" />
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/jisnu.jpg" alt="Suha Group Achievement" />
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/shifa.jpg" alt="Suha Group Event" />
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/jasim.jpg" alt="Suha Group Event" />
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/jayasree.jpg" alt="Suha Group Event" />
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/hiba mol.jpg" alt="Suha Group Event" />
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/arjun.jpg" alt="Suha Group Event" />
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/ashitha.jpg" alt="Suha Group Event" />
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/midun.jpg" alt="Suha Group Event" />
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/PLACEMENT HENNA PARWEEN.jpg" alt="Suha Group Event" />
-          </div>
-        </div>
-
-        {/* Duplicate slides for infinite scroll */}
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/adarsh.jpg" alt="Suha Group Project 1" />
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/adhil ck.jpg" alt="Suha Group Team Member" />
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/shadiya.jpg" alt="Suha Group Office" />
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/jisnu.jpg" alt="Suha Group Achievement" />
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/shifa.jpg" alt="Suha Group Event" />
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/jasim.jpg" alt="Suha Group Event" />
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="slide-content">
-            <img src="images/jayasree.jpg" alt="Suha Group Event" />
-          </div>
-        </div>
-
-         <div className="slide">
-          <div className="slide-content">
-            <img src="images/hiba mol.jpg" alt="Suha Group Event" />
-          </div>
-        </div>
-
-         <div className="slide">
-          <div className="slide-content">
-            <img src="images/arjun.jpg" alt="Suha Group Event" />
-          </div>
-        </div>
-        
-         <div className="slide">
-          <div className="slide-content">
-            <img src="images/ashitha.jpg" alt="Suha Group Event" />
-          </div>
-        </div>
-
-         <div className="slide">
-          <div className="slide-content">
-            <img src="images/midun.jpg" alt="Suha Group Event" />
-          </div>
-        </div>
-
-          <div className="slide">
-          <div className="slide-content">
-            <img src="images/PLACEMENT HENNA PARWEEN.jpg" alt="Suha Group Event" />
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
+      </section>
 
       {/* COURSES */}
       <section className="course-section" id="course">
@@ -331,77 +232,29 @@ function MyComponent() {
           </div>
 
           <div className="slider-container">
-            <div className="slider-track">
 
-              {/* First set of slides */}
-              <div className="slide">
-                <div className="slide-content">
-                  <img src="/grp_img/WhatsApp Image 2025-05-06 at 11.00.44_20c3ecaa.jpg" alt="Suha Group Project 1" />
-                </div>
-              </div>
+            <Swiper
+              className="mySwiper"
+              modules={[Autoplay]}
+              slidesPerView="auto"
+              spaceBetween={20}
+              loop={true}
+              speed={4000}
+              grabCursor={true}
+              autoplay={{
+                delay: 0,
+                disableOnInteraction: false,
+              }}
+            >
+              {group.map((img) => (
+                <SwiperSlide key={img}>
+                  <div className="slide-content">
+                    <img src={img} alt="group" />
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
 
-              <div className="slide">
-                <div className="slide-content">
-                  <img src="/grp_img/WhatsApp Image 2025-05-06 at 11.00.44_abf936c3.jpg" alt="Suha Group Team Member" />
-                </div>
-              </div>
-
-              <div className="slide">
-                <div className="slide-content">
-                  <img src="/grp_img/WhatsApp Image 2025-05-06 at 11.00.44_ae24b114.jpg" alt="Suha Group Office" />
-                </div>
-              </div>
-
-              <div className="slide">
-                <div className="slide-content">
-                  <img src="/grp_img/WhatsApp Image 2025-05-06 at 11.00.45_914a6e71.jpg" alt="Suha Group Achievement" />
-                </div>
-              </div>
-
-              <div className="slide">
-                <div className="slide-content">
-                  <img src="/grp_img/WhatsApp Image 2025-05-06 at 11.00.45_a0ae720b.jpg" alt="Suha Group Event" />
-                </div>
-              </div>
-
-              <div className="slide">
-                <div className="slide-content">
-                  <img src="/grp_img/WhatsApp Image 2025-05-06 at 11.00.46_93ba8941.jpg" alt="Suha Group Event" />
-                </div>
-              </div>
-
-              {/* Duplicate slides for infinite scroll */}
-              <div className="slide">
-                <div className="slide-content">
-                  <img src="/grp_img/WhatsApp Image 2025-05-06 at 11.00.44_20c3ecaa.jpg" alt="Suha Group Project 1" />
-                </div>
-              </div>
-
-              <div className="slide">
-                <div className="slide-content">
-                  <img src="/grp_img/WhatsApp Image 2025-05-06 at 11.00.44_abf936c3.jpg" alt="Suha Group Team Member" />
-                </div>
-              </div>
-
-              <div className="slide">
-                <div className="slide-content">
-                  <img src="/grp_img/WhatsApp Image 2025-05-06 at 11.00.44_ae24b114.jpg" alt="Suha Group Office" />
-                </div>
-              </div>
-
-              <div className="slide">
-                <div className="slide-content">
-                  <img src="/grp_img/WhatsApp Image 2025-05-06 at 11.00.45_914a6e71.jpg" alt="Suha Group Achievement" />
-                </div>
-              </div>
-
-              <div className="slide">
-                <div className="slide-content">
-                  <img src="/grp_img/WhatsApp Image 2025-05-06 at 11.00.45_a0ae720b.jpg" alt="Suha Group Event" />
-                </div>
-              </div>
-
-            </div>
           </div>
 
 

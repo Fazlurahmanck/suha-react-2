@@ -8,6 +8,7 @@ import "./css/footer.css";
 import "./css/exe.css";
 import "./css/group.css";
 import "./css/we_are.css";
+import "./css/placement.css";
 import MyComponent  from './App';  // import cheyyunnu
 import reportWebVitals from './reportWebVitals';
 
