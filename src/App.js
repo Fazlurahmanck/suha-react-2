@@ -145,6 +145,12 @@ function MyComponent() {
           </div>
         </div>
 
+        <div className="slide">
+          <div className="slide-content">
+            <img src="images/PLACEMENT HENNA PARWEEN.jpg" alt="Suha Group Event" />
+          </div>
+        </div>
+
         {/* Duplicate slides for infinite scroll */}
         <div className="slide">
           <div className="slide-content">
@@ -209,6 +215,12 @@ function MyComponent() {
          <div className="slide">
           <div className="slide-content">
             <img src="images/midun.jpg" alt="Suha Group Event" />
+          </div>
+        </div>
+
+          <div className="slide">
+          <div className="slide-content">
+            <img src="images/PLACEMENT HENNA PARWEEN.jpg" alt="Suha Group Event" />
           </div>
         </div>
 
