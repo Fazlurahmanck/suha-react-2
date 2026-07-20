@@ -44,7 +44,10 @@ function MyComponent() {
               <div className="cta-group">
                 <a href="#course" className="cta-btn">🚀 Start Learning</a>
                 <div className="phone">
-                  📞 <a href="tel:8590338499">85 90 33 84 99</a>
+                  📞 <a href="tel:9249057232">Kochi:- 92 49 05 72 32</a>
+                </div>
+                <div className="phone">
+                  📞 <a href="tel:8590338499">Nilambur:- 85 90 33 84 99</a>
                 </div>
               </div>
 
