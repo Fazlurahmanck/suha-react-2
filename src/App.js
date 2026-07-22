@@ -17,7 +17,9 @@ const placements = [
   "ashitha.jpg",
   "midhun ok.jpg",
   "PLACEMENT HENNA PARWEEN.jpg",
-  "shemil.jpg"
+  "shemil.jpg",
+  "shibila.jpg",
+  "adhil dm diya.jpg"
 ];
 
 const group = [
