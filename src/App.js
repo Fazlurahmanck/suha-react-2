@@ -193,20 +193,32 @@ function MyComponent() {
 
       {/* WHO WE ARE */}
       <section id="who-we-are">
-        <div className="container">
-          <div className="left">
-            <div className="image-row">
-              <div className="image-wrapper">
-                <img src="/images/IMG_6686.JPG" alt="Training sessions at our institute" />
-              </div>
-              <div className="image-wrapper">
-                <img src="/images/grand.jpeg" alt="Students learning at our institute" />
-              </div>
+        <div className="who-container">
+
+          <div className="who-images">
+
+            <div className="main-image">
+              <img
+                src="/images/grand.jpeg"
+                alt="Training sessions at our institute"
+              />
             </div>
+
+            <div className="floating-image">
+              <img
+                src="/images/IMG_6686.JPG"
+                alt="Students learning at our institute"
+              />
+            </div>
+
           </div>
 
-          <div className="right">
-            <span className="badge"><i className="fas fa-certificate"></i> Industry Experts</span>
+          <div className="who-content">
+
+            <span className="badge">
+              <i className="fas fa-certificate"></i>
+              Industry Experts
+            </span>
 
             <h2>
               Gain Expertise from <span>Global</span><br />
@@ -214,14 +226,17 @@ function MyComponent() {
             </h2>
 
             <p className="description">
-              We are a top software training institute in Kochi and Nilambur, committed to empowering individuals with the right
-              skills to thrive in the tech world. Our seasoned instructors, well-structured courses, and global connections
-              make us the perfect place to start or advance your tech career.
+              We are a top software training institute in Kochi and Nilambur,
+              committed to empowering individuals with the right skills to thrive in
+              the tech world. Our seasoned instructors, well-structured courses,
+              and global connections make us the perfect place to start or
+              advance your tech career.
             </p>
+
           </div>
+
         </div>
       </section>
-
       {/* COMPANIES */}
       <section className="instagram-section" id="company">
         <div className="container">
