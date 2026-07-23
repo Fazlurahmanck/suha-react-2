@@ -180,7 +180,7 @@ function MyComponent() {
             <img src="/images/digital image.jpg" alt="Digital Marketing with Graphic Design" className="course-image" />
             <div className="course-title">Digital Marketing with Graphic Design</div>
             <div className="course-info">
-              <p><i className="fa-regular fa-clock"></i> Duration: <strong>5 Months</strong></p>
+              <p><i className="fa-regular fa-clock"></i> Duration: <strong>6 Months</strong></p>
               <p>💼 100% Placement Assistance</p>
             </div>
             <a href="https://wa.me/918590338499?text=Digital%20Marketing%20details" className="see-more">
