@@ -55,7 +55,7 @@ const teamMembers = [
     image: "/images/teams/yahya1.jpg",
     name: "Yahya KT",
     designation: "Data Science Trainer",
-    experience: "7+ Years Experience",
+    experience: "4+ Years Experience",
   },
   {
     image: "/images/teams/niya.png",
