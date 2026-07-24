@@ -32,6 +32,63 @@ const group = [
 ];
 
 
+const teamMembers = [
+  {
+    image: "/images/teams/fasal.jpg",
+    name: "Fadlu Rahman",
+    designation: "Academic Director",
+    experience: "7+ Years of Experience in AI & Software Development",
+  },
+  {
+    image: "/images/teams/shabin.png",
+    name: "Shabin N",
+    designation: "Academic Director",
+    experience: "Commonwealth Scholar, UCL, London.",
+  },
+  {
+    image: "/images/teams/anjana.jpg",
+    name: "Anjana Jayakumar",
+    designation: "AI Development,Data Science and Python Trainer",
+    experience: "4+ Years Experience",
+  },
+  {
+    image: "/images/teams/yahya1.jpg",
+    name: "Yahya KT",
+    designation: "Data Science Trainer",
+    experience: "7+ Years Experience",
+  },
+  {
+    image: "/images/teams/niya.png",
+    name: "Niya Fathima",
+    designation: "Digital Marketing with Graphic Design Trainer",
+    experience: "3+ Years Experience",
+  },
+  {
+    image: "/images/teams/diya.png",
+    name: "Diya Mehrin",
+    designation: "Digital Marketing with Graphic Design Trainer",
+    experience: "3+ Years Experience",
+  },
+     {
+    image: "/images/teams/munavir.jpg",
+    name: "Munavir Ali",
+    designation: "Mentor",
+    experience: "4+ Years Experience",
+  },
+   {
+    image: "/images/teams/jenna.png",
+    name: "Sherin Jenna",
+    designation: "Mentor",
+    experience: "4+ Years Experience",
+  },
+     {
+    image: "/images/teams/neeraja.jpg",
+    name: "Neeraja",
+    designation: "Mentor",
+    experience: "2+ Years Experience",
+  },
+];
+
 function MyComponent() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -237,6 +294,37 @@ function MyComponent() {
 
         </div>
       </section>
+      {/* TEAMS */}
+      <section className="team-section">
+        <div className="container">
+
+          <div className="team-header">
+            <h2>MEET OUR TEAM</h2>
+            <p>
+              Our experienced professionals are dedicated to helping students
+              achieve success through quality training and mentorship.
+            </p>
+          </div>
+
+          <div className="team-grid">
+            {teamMembers.map((member, index) => (
+              <div className="team-card" key={index}>
+
+                <img src={member.image} alt={member.name} />
+
+                <div className="team-info">
+                  <h3>{member.name}</h3>
+                  <span className="designation">{member.designation}</span>
+                  <p className="experience">{member.experience}</p>
+                </div>
+
+              </div>
+            ))}
+          </div>
+
+        </div>
+      </section>
+
       {/* COMPANIES */}
       <section className="instagram-section" id="company">
         <div className="container">

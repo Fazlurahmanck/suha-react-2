@@ -1,0 +1,219 @@
+.team-section {
+  padding: 90px 20px;
+  background: #f8f8f8;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* =======================
+   Header
+======================= */
+
+.team-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.team-header h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #d85e00;
+  margin-bottom: 15px;
+}
+
+.team-header p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* =======================
+   Team Grid
+======================= */
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* =======================
+   Team Card
+======================= */
+
+.team-card {
+  width: 210px;
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.35s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 35px rgba(216, 94, 0, 0.18);
+}
+
+.team-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.team-card:hover img {
+  transform: scale(1.05);
+}
+
+/* =======================
+   Card Content
+======================= */
+
+.team-info {
+  padding: 15px 12px;
+  text-align: center;
+}
+
+.team-info h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.designation {
+  display: block;
+  font-size: 14px;
+  color: #d85e00;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.experience {
+  font-size: 13px;
+  color: #777;
+}
+
+/* =======================
+   Large Tablet
+======================= */
+
+@media (max-width: 1200px) {
+
+  .team-card {
+    width: 220px;
+  }
+
+}
+
+/* =======================
+   Tablet
+======================= */
+
+@media (max-width: 992px) {
+
+  .team-card {
+    width: 200px;
+  }
+
+}
+
+/* =======================
+   Mobile
+======================= */
+
+@media (max-width: 768px) {
+
+  .team-section {
+    padding: 70px 15px;
+  }
+
+  .team-header {
+    margin-bottom: 40px;
+  }
+
+  .team-header h2 {
+    font-size: 32px;
+  }
+
+  .team-header p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .team-grid {
+    gap: 14px;
+    justify-content: center;
+  }
+
+  .team-card {
+    width: calc(50% - 7px);
+  }
+
+  .team-card img {
+    height: 180px;
+  }
+
+  .team-info {
+    padding: 12px 8px;
+  }
+
+  .team-info h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .designation {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .experience {
+    font-size: 11px;
+  }
+
+}
+
+/* =======================
+   Small Mobile
+======================= */
+
+@media (max-width: 480px) {
+
+  .team-grid {
+    gap: 10px;
+  }
+
+  .team-card {
+    width: calc(50% - 5px);
+  }
+
+  .team-card img {
+    height: 160px;
+  }
+
+  .team-info {
+    padding: 10px 6px;
+  }
+
+  .team-info h3 {
+    font-size: 14px;
+  }
+
+  .designation {
+    font-size: 11px;
+  }
+
+  .experience {
+    font-size: 10px;
+  }
+
+}

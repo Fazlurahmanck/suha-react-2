@@ -9,6 +9,7 @@ import "./css/exe.css";
 import "./css/group.css";
 import "./css/we_are.css";
 import "./css/placement.css";
+import "./css/teams.css";
 import MyComponent  from './App';  // import cheyyunnu
 import reportWebVitals from './reportWebVitals';
 
