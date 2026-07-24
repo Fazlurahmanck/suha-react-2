@@ -54,7 +54,7 @@ const teamMembers = [
   {
     image: "/images/teams/yahya1.jpg",
     name: "Yahya KT",
-    designation: "Data Science Trainer",
+    designation: "AI Development,Data Science and Python Trainer",
     experience: "4+ Years Experience",
   },
   {
